@@ -1,9 +1,9 @@
-[Intro spoken]
+[Intro Spoken]
 This is the story of how the British Empire stole and stole and stole. Please, remember this is just a performance, don't interrupt.
 
-[Intro: Instrumental – accordion, feet percutting wood, distant laughter]
+[Intro Instrumental]
 
-[Verse 1 – male voice, heavy British accent, theatrical and proud]
+[Verse 1]
 By the Queen’s grace, I set to the tide,  
 With a map in me hand and the world open wide.  
 No land too holy, no god too tall—  
@@ -14,7 +14,7 @@ Took statues and scrolls, tossed the rest in the bin.
 Called it “civilized”, aye, gave it a name,  
 Hung it in halls, said *you* should feel shame.
 
-[Chorus – pirate crew style, unsynced loud and proud]
+[Chorus]
 🎶 YO-HO! And plunder I crave,  
 The riches of cultures I’ll never save.  
 YO-HO! It’s mine by might,  
@@ -22,7 +22,7 @@ If I took it well, then I own it by right!
 YO-HO! With boots and crown,  
 I sail the world, I burn it down! 🎶
 
-[Verse 2 – sly tone, naming real artifacts]
+[Verse 2]
 Took the Elgin Marbles from Athens fair,  
 Said, “they’d just crumble if left down there.”  
 The Rosetta Stone? A charming prize—  
@@ -33,13 +33,13 @@ Called it “found”, not stolen, cleaned of mud.
 Wrapped it in linen, tagged it “loan”,  
 Then claimed with a smirk: “They can’t build a home.”
 
-[Verse 3 – three men, trading lines, almost spoken]
+[Verse 3]
 MAN 1 (Clear voice): Heard they nabbed a god from the Nile’s own hand—  A jackal-faced thing, looked mighty grand!
 MAN 2 (nasal voice): Aye, and they took a spear from the Māori clan,— Stuck a plaque on it: "Found by an Englishman."
 MAN 3 (PCockney): You jest, dear friends! What art we hold—  
 We loot with class, and gild the gold.
 
-[Chorus –   pirate crew style, unsynced loud, triumphant and grim]
+[Chorus]
 🎶 YO-HO! The strong shall reign,
 Through cannon fire and gilded chain.
 YO-HO! No guilt to see—
@@ -49,13 +49,13 @@ Then teach the world to praise our name! 🎶
 
 [All chuckle. FX: tankard clink, echoing laughter.]
 
-[Bridge – darker, ominous delivery][Percussion solo: miilitary drum box solo buuilding up]
+[Bridge]
 They ask for return? I scoff and yawn—  
 History’s written by those who’ve drawn  
 The map, the blade, the fine decree—  
 While the relics rot in glass for me.
 
-[Final Chorus – pirate crew style, unsynced loud,  riumphant and grim]
+[Chorus]
 🎶 YO-HO! I pillaged with flair,  
 And dressed up the theft with royal care.  
 YO-HO! A crown and flame,  
@@ -68,4 +68,4 @@ If I flew the flag, it’s mine to display! 🎶
 (ha ha ha!)
 
 [Outro]
-[audience clapping]
+[Clapping]
