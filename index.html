@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sunovision</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  
+  <body>
+    <header class="hero-section">
+      <img class="hero-image" src="resources/imagenes/portada.png" alt="Sunovision Logo" />
+      <h1 class="hero-title">🎤 Sunovision Summer Edition 2025</h1>
+      <p class="hero-subtitle">¡El festival de canciones generadas por IA más épico del año!</p>
+    </header>
+
+    <!-- Imagenes laterales -->
+    <!-- <img src="/resources/imagenes/borde_izquierdo.gif" class="decoracion decoracion-izquierda" alt="Decoración izquierda"/>
+    <img src="/resources/imagenes/borde_derecho.gif" class="decoracion decoracion-derecha" alt="Decoración derecha"/> -->
+
+    <!-- Tarjetas se cargarán aquí dinámicamente -->
+    <div id="contenedor-canciones" class="grid-container"></div>
+  
+    <!-- Modal de letra -->
+    <div class="lyrics-modal" id="lyrics-modal">
+      <div class="lyrics-content">
+        <span class="close-btn" onclick="closeLyrics()">&times;</span>
+        <h3 id="lyrics-title">Letra</h3>
+        <p id="lyrics-body">Cargando letra...</p>
+      </div>
+    </div>
+  
+    <script src="script.js"></script>
+  </body>
+</html>

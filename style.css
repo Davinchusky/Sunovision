@@ -1,0 +1,238 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+/* Estilos generales */
+body {
+  background-image: url('/resources/imagenes/playa_fondo.jpg');
+  background-size: cover; /* Hace que ocupe todo el fondo */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Para que no se mueva al hacer scroll */
+  background-repeat: no-repeat;
+  color: white;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+/* Capa oscura encima */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2); /* Cambia el 0.2 según cuánta opacidad quieras */
+  z-index: -1;
+}
+
+/* Estilos para las tarjetas */
+.card-wrapper {
+  width: 300px;
+  height: 500px; /* o el alto que más te guste */
+  position: relative;
+}
+
+.song-card,
+.show-button-card {
+  background-color: #186963;
+  border-radius: 16px;
+  padding: 20px;
+  text-align: center;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.show-button-card button {
+  background-color: #219c54;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.show-button-card button:hover {
+  background-color: #1d4ed8;
+}
+
+.song-card {
+  display: none;
+}
+
+.song-card img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.song-card h2 {
+  margin: 0;
+  color: #facc15;
+}
+
+.song-card p {
+  margin: 5px 0 15px;
+  font-size: 0.95em;
+  color: #ccc;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+/* Estilos para el reproductor de audio */
+audio {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.lyrics-button {
+  margin-top: 10px;
+  background-color: #facc15;
+  color: black;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.lyrics-modal {
+  display: none;
+  /* Oculta por defecto */
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  justify-content: center;
+  align-items: center;
+}
+
+.lyrics-content {
+  #lyrics-body {
+    max-height: 700px;   /* Ajusta según el tamaño que prefieras */
+    overflow-y: auto;
+    margin-top: 15px;
+    line-height: 1.5;
+  }
+
+  #lyrics-body::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  #lyrics-body::-webkit-scrollbar-thumb {
+    background-color: #a7913d;
+    border-radius: 4px;
+  }
+
+  #lyrics-body::-webkit-scrollbar-track {
+    background: #1e2f2e;
+  }
+
+  background-color: #1e2f2e;
+  color: white;
+  padding: 30px;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 600px;
+  position: relative;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+.lyrics-content h3 {
+  margin-top: 0;
+  color: #facc15;
+}
+
+/* Grid layout */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);  /* Siempre 3 columnas */
+  justify-content: center;                /* Centra las columnas */
+  gap: 200px;
+  max-width: 1300px;
+  margin: 0 auto;
+  row-gap: 100px;    /* espacio entre filas (ajusta esto para menos margen vertical) */
+}
+
+/* Animaciones */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+.fade-in {
+  animation: fadeIn 0.3s ease-out forwards;
+}
+
+.fade-out {
+  animation: fadeOut 0.3s ease-in forwards;
+}
+
+/* Portada y título */
+.hero-section {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 40px;
+  animation: fadeIn 1.5s ease-in;
+}
+
+.hero-image {
+  max-width: 600px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.15);
+}
+
+.hero-title {
+  font-size: 3em;
+  color: #000000;
+  margin: 0;
+}
+
+.hero-subtitle {
+  font-size: 2em;
+  color: #4f2121;
+  margin-top: 10px;
+}
+
+/* Imágenes laterales */
+.decoracion {
+  position: fixed;
+  top: 0px;
+  height: 1000px; /* Estira de arriba a abajo */
+  width: 300px; /* Mantiene proporción horizontal */
+  z-index: 1;
+  opacity: 0.8;
+}
+
+.decoracion-izquierda {
+  left: 0px;
+}
+
+.decoracion-derecha {
+  right: 0px;
+}
