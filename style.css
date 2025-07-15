@@ -171,6 +171,7 @@ audio {
   max-width: 1300px;
   margin: 0 auto;
   row-gap: 100px;    /* espacio entre filas (ajusta esto para menos margen vertical) */
+  padding-bottom: 70px; /* ⬅️ Añade espacio al final */
 }
 
 /* Animaciones */

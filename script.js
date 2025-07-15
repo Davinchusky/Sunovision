@@ -52,6 +52,9 @@ function showLyrics(id, titulo) {
       document.getElementById('lyrics-title').textContent = `${titulo}`;
       document.getElementById('lyrics-body').innerHTML = text.replace(/\n/g, "<br>");
 
+      // 🔒 Bloquear scroll del body
+      document.body.style.overflow = 'hidden';
+
       const modal = document.getElementById('lyrics-modal');
       modal.classList.remove('fade-out');
       modal.style.display = 'flex';
@@ -75,6 +78,9 @@ function closeLyrics() {
   const modal = document.getElementById('lyrics-modal');
   modal.classList.remove('fade-in');
   modal.classList.add('fade-out');
+
+  // ✅ Restaurar scroll del body
+  document.body.style.overflow = '';
 
   // Esperar a que termine la animación antes de ocultar
   modal.addEventListener('animationend', function onEnd() {
