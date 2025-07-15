@@ -1,4 +1,4 @@
-[intro - tin whistle]
+[Intro]
 (Sláinte, my man!)
 
 [Verso 1]
@@ -19,7 +19,7 @@ Raise your glass high so we can toast (YEAH)
 You shouldn’t take it all in one shot
 Unless you feel like drinking more (Sláinte, my man!)
 
-[Verso 3 - Celtic folk]
+[Verso 3]
 Tenemos un duende verde con mucho oro,
 Y no, no hablamos del malo de Spiderman
 Sean bienvenidos al 17 de marzo
@@ -37,19 +37,19 @@ Raise your glass high so we can toast (YEAH)
 You shouldn’t take it all in one shot
 Unless you feel like drinking more (Sláinte, my man!)
 
-[pre-Bridge]
+[Pre-Bridge]
 Me metí en un pub buscando ligar  
 Salí con tatuajes y tres confesiones  
 Bebí con un cura que hacía milagros  
 Convirtió la cerveza en algo más caro
 
-[bridge]
+[Bridge]
 No apuestes más de una vez a los dardos 
 Cuidado con el ardor del whisky
 Abraza todo baile tradicional
 Brinda sin miedo con desconocidos
 
-[Coro final]
+[Coro]
 One more beer mug, this one has a hole
 Raise your glass high so we can toast (YEAH)
 You shouldn’t take it all in one shot

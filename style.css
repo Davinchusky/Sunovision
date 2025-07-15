@@ -280,3 +280,33 @@ audio {
 .decoracion-derecha {
   right: 0px;
 }
+
+/* Estilo letra */
+.etiqueta-coro {
+  color: #facc15;
+  font-weight: bold;
+  background-color: rgba(250, 204, 21, 0.15);
+  border-radius: 5px;
+}
+
+.etiqueta-verso {
+  color: #38bdf8;
+  font-weight: bold;
+  background-color: rgba(56, 189, 248, 0.1);
+  border-radius: 5px;
+}
+
+.etiqueta-intro-outro {
+  color: #51fde1;
+  font-weight: bold;
+  background-color: rgba(56, 245, 248, 0.1);
+  border-radius: 5px;
+}
+
+.etiqueta-otros {
+  color: #d82323;
+  font-weight: bold;
+  background-color: rgba(248, 56, 56, 0.1);
+  border-radius: 5px;
+}
+
