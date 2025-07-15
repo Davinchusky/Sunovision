@@ -1,3 +1,11 @@
+const toallasDisponibles = [
+  'toalla1.jpg',
+  'toalla2.jpg',
+  'toalla3.jpg',
+  'toalla4.jpg',
+  'toalla5.jpg'
+];
+
 // Funcion que carga del json las canciones y las muestra en el html
 async function cargarCanciones() {
   const response = await fetch('resources/canciones.json');
@@ -7,7 +15,13 @@ async function cargarCanciones() {
   canciones.forEach(({ pais, titulo, id, portada }) => {
     const card = document.createElement('div');
     card.className = 'card-wrapper';
+
+    const toalla = toallasDisponibles[Math.floor(Math.random() * toallasDisponibles.length)];
+
     card.innerHTML = `
+      <div class="toalla-fondo" style="background-image: url('resources/toallas/${toalla}')">
+        <div class="overlay"></div>
+      </div>
       <div class="show-button-card" id="btn-${id}">
         <button onclick="showCard('${id}')">▶ ${pais}</button>
       </div>
@@ -18,9 +32,10 @@ async function cargarCanciones() {
         <audio controls>
           <source src="resources/canciones/${id}.mp3" type="audio/mpeg">
         </audio>
-        <button class="lyrics-button" onclick="showLyrics('${id}', '${titulo}')">🎤 Ver letra</button>
+        <button class="lyrics-button" onclick="showLyrics('${id}', \`${titulo}\`)">🎤 Ver letra</button>
       </div>
     `;
+
     contenedor.appendChild(card);
   });
 }
@@ -35,6 +50,10 @@ function showCard(id) {
   songCard.classList.remove('fade-in');
   void songCard.offsetWidth; // fuerza reflow
   songCard.classList.add('fade-in');
+
+  // Aplica la superposición oscura
+  const overlay = songCard.parentElement.querySelector('.toalla-fondo .overlay');
+  overlay.classList.add('oscurecer');
 
   const audio = songCard.querySelector('audio');
   if (audio) {

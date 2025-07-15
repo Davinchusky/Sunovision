@@ -12,6 +12,12 @@
     "portada": ""
   },
   {
+    "pais": "Países Bajos",
+    "titulo": "Oink Oink",
+    "id": "paises_bajos",
+    "portada": "https://cdn2.suno.ai/c216a409-ea4a-46fc-9999-7b8a4a011b6e_65ce4ab0.jpeg"
+  },
+  {
     "pais": "Dinamarca",
     "titulo": "",
     "id": "dinamarca",
@@ -43,9 +49,9 @@
   },
   {
     "pais": "Irlanda",
-    "titulo": "",
+    "titulo": "Sláinte, My Man!",
     "id": "irlanda",
-    "portada": ""
+    "portada": "https://cdn2.suno.ai/image_large_9f718bf1-3a2c-43c7-9fe6-5f8ce437b458.jpeg"
   },
   {
     "pais": "Suecia",
@@ -63,12 +69,6 @@
     "pais": "Japón",
     "titulo": "",
     "id": "japon",
-    "portada": ""
-  },
-  {
-    "pais": "Países Bajos / Holanda",
-    "titulo": "",
-    "id": "paises_bajos",
     "portada": ""
   }
 ]

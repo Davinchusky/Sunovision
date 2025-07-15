@@ -2,6 +2,7 @@ html {
   height: 100%;
   width: 100%;
 }
+
 /* Estilos generales */
 body {
   background-image: url('/resources/imagenes/playa_fondo.jpg');
@@ -35,13 +36,15 @@ body::before {
 /* Estilos para las tarjetas */
 .card-wrapper {
   width: 300px;
-  height: 500px; /* o el alto que más te guste */
+  height: 500px;
   position: relative;
+  border-radius: 16px;
+  overflow: hidden;
 }
 
 .song-card,
 .show-button-card {
-  background-color: #186963;
+  background-color: rgba(81, 181, 174, 0.6); /* semi-transparente */
   border-radius: 16px;
   padding: 20px;
   text-align: center;
@@ -54,8 +57,8 @@ body::before {
 }
 
 .show-button-card button {
-  background-color: #219c54;
-  color: white;
+  background-color: #2fd474;
+  color: rgb(0, 0, 0);
   border: none;
   padding: 15px 25px;
   border-radius: 8px;
@@ -79,13 +82,52 @@ body::before {
 
 .song-card h2 {
   margin: 0;
-  color: #facc15;
+  color: #000000;
 }
 
 .song-card p {
   margin: 5px 0 15px;
   font-size: 0.95em;
-  color: #ccc;
+  color: #000000;
+}
+
+/* Capa de oscurecimiento al mostrar tarjeta */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+  z-index: 0;
+  pointer-events: none;
+  background-color: transparent;
+  transition: background-color 0.4s ease;
+}
+
+.oscurecer {
+  background-color: rgba(0, 0, 0, 0.45); /* puedes ajustar la opacidad */
+}
+
+/* Toalla */
+.toalla-fondo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+/* Asegura que el contenido está por encima */
+.show-button-card,
+.song-card {
+  position: relative;
+  z-index: 1;
 }
 
 .close-btn {
@@ -104,6 +146,7 @@ audio {
 
 .lyrics-button {
   margin-top: 10px;
+  margin-bottom: 20px;
   background-color: #facc15;
   color: black;
   border: none;
