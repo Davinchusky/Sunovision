@@ -80,6 +80,8 @@ function showLyrics(id, titulo) {
                       .replace(/\[Chorus\]/gi, '<span class="etiqueta-coro">[Chorus]</span>')
                       .replace(/\[Pre-Chorus\]/gi, '<span class="etiqueta-coro">[Pre-Chorus]</span>')
                       .replace(/\[Post-Chorus\]/gi, '<span class="etiqueta-coro">[Post-Chorus]</span>')
+                      .replace(/\[Estribillo 1\]/gi, '<span class="etiqueta-coro">[Estribillo 1]</span>')
+                      .replace(/\[Estribillo 2\]/gi, '<span class="etiqueta-coro">[Estribillo 2]</span>')
                       .replace(/\[Verso\]/gi, '<span class="etiqueta-verso">[Verso]</span>')
                       .replace(/\[Verso 1\]/gi, '<span class="etiqueta-verso">[Verso 1]</span>')
                       .replace(/\[Verso 2\]/gi, '<span class="etiqueta-verso">[Verso 2]</span>')
