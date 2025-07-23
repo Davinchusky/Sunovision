@@ -78,10 +78,14 @@ function showLyrics(id, titulo) {
                       .replace(/\[Outro\]/gi, '<span class="etiqueta-intro-outro">[Outro]</span>')
                       .replace(/\[Coro\]/gi, '<span class="etiqueta-coro">[Coro]</span>')
                       .replace(/\[Chorus\]/gi, '<span class="etiqueta-coro">[Chorus]</span>')
+                      .replace(/\[Final Chorus\]/gi, '<span class="etiqueta-coro">[Final Chorus]</span>')
                       .replace(/\[Pre-Chorus\]/gi, '<span class="etiqueta-coro">[Pre-Chorus]</span>')
                       .replace(/\[Post-Chorus\]/gi, '<span class="etiqueta-coro">[Post-Chorus]</span>')
+                      .replace(/\[Pre-Estribillo\]/gi, '<span class="etiqueta-coro">[Pre-Estribillo]</span>')
+                      .replace(/\[Estribillo\]/gi, '<span class="etiqueta-coro">[Estribillo]</span>')
                       .replace(/\[Estribillo 1\]/gi, '<span class="etiqueta-coro">[Estribillo 1]</span>')
                       .replace(/\[Estribillo 2\]/gi, '<span class="etiqueta-coro">[Estribillo 2]</span>')
+                      .replace(/\[Estribillo Final\]/gi, '<span class="etiqueta-coro">[Estribillo Final]</span>')
                       .replace(/\[Verso\]/gi, '<span class="etiqueta-verso">[Verso]</span>')
                       .replace(/\[Verso 1\]/gi, '<span class="etiqueta-verso">[Verso 1]</span>')
                       .replace(/\[Verso 2\]/gi, '<span class="etiqueta-verso">[Verso 2]</span>')
@@ -89,6 +93,7 @@ function showLyrics(id, titulo) {
                       .replace(/\[Verso 4\]/gi, '<span class="etiqueta-verso">[Verso 4]</span>')
                       .replace(/\[Verso 5\]/gi, '<span class="etiqueta-verso">[Verso 5]</span>')
                       .replace(/\[Verso 6\]/gi, '<span class="etiqueta-verso">[Verso 6]</span>')
+                      .replace(/\[Puente\]/gi, '<span class="etiqueta-verso">[Puente]</span>')
                       .replace(/\[Bridge\]/gi, '<span class="etiqueta-verso">[Bridge]</span>')
                       .replace(/\[Pre-Bridge\]/gi, '<span class="etiqueta-verso">[Pre-Bridge]</span>')
                       .replace(/\[Verse\]/gi, '<span class="etiqueta-verso">[Verse]</span>')
@@ -98,7 +103,9 @@ function showLyrics(id, titulo) {
                       .replace(/\[Verse 4\]/gi, '<span class="etiqueta-verso">[Verse 4]</span>')
                       .replace(/\[Verse 5\]/gi, '<span class="etiqueta-verso">[Verse 5]</span>')
                       .replace(/\[Verse 6\]/gi, '<span class="etiqueta-verso">[Verse 6]</span>')
-                      .replace(/\[Guitar Solo – Spanish Guitar\]/gi, '<span class="etiqueta-otros">[Guitar Solo – Spanish Guitar]</span>');
+                      .replace(/\[Verse 7\]/gi, '<span class="etiqueta-verso">[Verse 7]</span>')
+                      .replace(/\[Guitar Solo – Spanish Guitar\]/gi, '<span class="etiqueta-otros">[Guitar Solo – Spanish Guitar]</span>')
+                      .replace(/\[Instrumental\]/gi, '<span class="etiqueta-verso">[Instrumental]</span>');
 
       // 🔒 Bloquear scroll del body
       document.body.style.overflow = 'hidden';
