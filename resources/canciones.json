@@ -1,7 +1,7 @@
 [
   {
-    "pais": "Albor Férido - España",
-    "titulo": "Sangre de Olivo",
+    "pais": "España",
+    "titulo": "Sangre de Olivo- Albor Férido",
     "id": "españa_anterior",
     "portada": "https://cdn2.suno.ai/71820c35-2494-4794-97a4-3137950963e9_8ebdad2c.jpeg"
   },
@@ -31,9 +31,9 @@
   },
   {
     "pais": "Francia",
-    "titulo": "",
+    "titulo": "Croissants y playa",
     "id": "francia",
-    "portada": ""
+    "portada": "https://cdn2.suno.ai/b061c2da-3303-496f-a79b-674241176093.jpeg"
   },
   {
     "pais": "España",
@@ -42,8 +42,8 @@
     "portada": ""
   },
   {
-    "pais": "Tea Bastards - Reino Unido",
-    "titulo": "World´s Musseum",
+    "pais": "Reino Unido",
+    "titulo": "World´s Musseum - Tea Bastards",
     "id": "reino_unido",
     "portada": "https://cdn2.suno.ai/a782cf43-662b-4c82-a378-d2a6ba5d351d_81c34f83.jpeg"
   },
@@ -61,14 +61,14 @@
   },
   {
     "pais": "Italia",
-    "titulo": "",
+    "titulo": "Vino e Dio",
     "id": "italia",
-    "portada": ""
+    "portada": "https://cdn2.suno.ai/image_large_f4068873-4134-4e05-b275-9771cab27002.jpeg"
   },
   {
     "pais": "Japón",
-    "titulo": "",
+    "titulo": "Yamete Kudasai",
     "id": "japon",
-    "portada": ""
+    "portada": "https://cdn2.suno.ai/image_large_fcb1a46e-b59d-4c78-97bf-f596e9a133c3.jpeg"
   }
 ]
