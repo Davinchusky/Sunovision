@@ -1,41 +1,30 @@
-[Intro]
-
-[Clapping]
-(ole)
-[Melancholic Atmosphere]
-[Clapping]
-(oleeeeeee)
-
-[Clapping] [Screams]
-(OLEEEEEEEE)
-
-[Female Vocal] [Tense Underscore]
+[Verse] [Clear and soft Female Vocal, Tense Underscore, crowd goes wild at the end]
 Sube el precio del aceite…
 baja el valor de mi voz.
 Pero brillan las terrazas,
 si lo cantas con pasión.
 (¡No pasarán!)
 
-[Layered Arrangement + Ghostly Echoes]
+[Verse] [Layered Arrangement, Ghostly Echoes]
 Dicen que somos problema,
 pero llenan los hoteles.
 Se burlan de nuestra lengua,
 y ahora la graban en series.
 
-[Pre-Chorus][Euphoric Build][Female Vocal][Harmonies]
+[Pre-Chorus] [Euphoric Build, Clear angry Female voice]
 Nos llamaron PIGS de mierda,
 y ahora beben nuestra cerveza.
 Quieren sol, y no saben usar balcón.
 ¡Quieren fiesta, no verdad!
 
-[Chorus][Female Vocal][Man Harmonies][Catchy Hook + Emotional Swell]
+[Chorus] [Catchy Hook, Emotional Swell, clear proud female voice]
 ¡PERO NO PASARÁN!
 Ni aunque vengan con billetes y disfraz.
 No nos callarán,
 aunque suba el gas, el pan, y el mar.
 ¡Aquí seguimos, con SANGRE DE OLIVO Y METAL!
 
-[Post-Chorus][Man Vocal][Clapping + Cajón]
+[Post-Chorus] [Clapping, Cajón, Clear and soft Female Vocal]
 No quieren que molestemos,
 ni un suspiro fuera del show.
 Que no ensucie su verano
@@ -43,53 +32,50 @@ nuestra rabia y nuestro “no”.
 El alma no cabe en un souvenir,
 ni en un brindis con sudor.
 
-[Verse][Female Vocal][Aggressive] [Heavy Riff + Percussion Break]
+[Verse] [Heavy Riff, Percussion Break]
 Mi abuela no tiene pa' comprar,
 mi hermana no puede alquilar.
-Pero tú buscas el sur salvaje,
-sin tener que preguntar.
+Pero tú buscas sur salvaje,
+pa' pillarte un buen pedal
 
-[Man]
+[Female, Melodic]
 You speak English, because is the only thing you know.
 I speak English, because is the only thing you know.
 
-[Female Vocal]
-We are not the same. [Laugh]
+[Female, Melodic, sarcastic]
+We are not the same.
+[Female giggles]
 
-[Pre-Chorus][Euphoric Build][Female Vocal][Aggressive]
+[Pre-Chorus] [Euphoric Build, female angry and strong voice]
 Nos llamaron PIGS de mierda,
 y ahora beben nuestra cerveza.
 Quieren sol, y no saben usar balcón.
 ¡Quieren fiesta, no verdad!
 
-[Guitar Solo – Spanish Guitar][Emotional, Flamenco-Style Solo]
+[Guitar Solo] [Spanish Guitar, Emotional, Flamenco-Style Solo]
 
-[Chorus] [Female Vocal][Man Harmonies][Catchy Hook + Emotional Swell]
+[Chorus] [Catchy Hook, Emotional Swell, ]
 ¡PERO NO PASARÁN!
 Ni aunque vengan con billetes y disfraz.
 No nos callarán,
 aunque suba el gas, el pan, y el mar.
 ¡Aquí seguimos, con SANGRE DE OLIVO Y METAL!
 
-[Bridge][Spoken Word][Female Vocal][Building Intensity + Sudden Break]
+[Bridge] [Spoken Word, Building Intensity, Sudden Break, crowd clapping at rythm]
 ¿Y si quemamos el decorado…?
 ¿y si no bailamos más?
 …y si un día nos ven calladas,
 es porque estamos por gritar.
-
-¡NO PASARÁN!
 ¡NO PASARÁN!
 ¡NO PASARÁN!
 ¡NO PASARÁN!
 
-[CHORUS ALL] [Catchy Hook + Emotional Swell]
+[Female long rage scream, crowd claps]
+¡NO PASARÁÁÁÁÁÁÁÁÁÁÁÁÁN!
+
+[Final Chorus] [Catchy Hook,  Emotional Swell, proud female]
 ¡PERO NO PASARÁN!
 Ni aunque vengan con billetes y disfraz.
 No nos callarán,
 aunque suba el gas, el pan, y el mar.
 ¡Aquí seguimos, con SANGRE DE OLIVO Y METAL!
-
-[Outro]
-
-[Female Vocal] [Shouts][Aggressive]
-¡NO PASARÁN!
