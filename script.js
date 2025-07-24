@@ -77,6 +77,7 @@ function showLyrics(id, titulo) {
                       .replace(/\[Intro Instrumental\]/gi, '<span class="etiqueta-intro-outro">[Intro Instrumental]</span>')
                       .replace(/\[Outro\]/gi, '<span class="etiqueta-intro-outro">[Outro]</span>')
                       .replace(/\[Coro\]/gi, '<span class="etiqueta-coro">[Coro]</span>')
+                      .replace(/\[Coro final\]/gi, '<span class="etiqueta-coro">[Coro final]</span>')
                       .replace(/\[Chorus\]/gi, '<span class="etiqueta-coro">[Chorus]</span>')
                       .replace(/\[Final Chorus\]/gi, '<span class="etiqueta-coro">[Final Chorus]</span>')
                       .replace(/\[Pre-Chorus\]/gi, '<span class="etiqueta-coro">[Pre-Chorus]</span>')
